@@ -1,0 +1,21 @@
+[global_config]
+  case_sensitive = False
+[keybindings]
+  go_up = <Alt>k
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+  split_horiz = <Primary>underscore
+  split_vert = <Primary>bar
+  layout_launcher = <Primary><Shift><Alt>l
+[profiles]
+  [[default]]
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
